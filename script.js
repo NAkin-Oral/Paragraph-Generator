@@ -37,3 +37,6 @@ btn.addEventListener('click', e => {
     result.innerHTML = temp;
   }
 });
+window.onload = () => {
+  input.focus();
+};
